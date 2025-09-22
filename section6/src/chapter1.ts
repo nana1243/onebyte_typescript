@@ -1,6 +1,13 @@
 /* `typescript`의 class*/
 
-class Employee {
+interface IEmployee {
+    name: string;
+    age: number;
+    position: string;
+    work(): void;
+}
+
+class Employee implements IEmployee{
     name: string;
     age : number;
     position : string;
