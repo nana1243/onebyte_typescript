@@ -1,9 +1,3 @@
-interface IEmployee {
-    name: string;
-    age: number;
-    position: string;
-    work(): void;
-}
 
 class EmployeeV2 implements IEmployee{
     protected name: string; // protected : 상속받은 클래스에서 접근 가능
